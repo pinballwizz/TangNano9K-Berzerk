@@ -2,6 +2,7 @@ Berzerk Arcade for the Tang Nano 9K Dev FPGA Board.
 
 Notes:
 Controls are PS2 keyboard, see readme file in tools folder for instructions.
+Consult the schematics folder for details regarding keyboard - audio - VGA connections.
 
 Build:
 * Obtain correct roms file for berzerk, see make berzerk proms script in tools folder for rom filenames.
