@@ -1,0 +1,30 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW1NR-9C" pn="GW1NR-LV9QN88PC6/I5">gw1nr9c-004</Device>
+    <FileList>
+        <File path="src/gowin_rpll/gowin_rpll.v" type="file.verilog" enable="1"/>
+        <File path="proms/berzerk_program1.vhd" type="file.vhdl" enable="1"/>
+        <File path="proms/berzerk_program2.vhd" type="file.vhdl" enable="1"/>
+        <File path="proms/berzerk_speech_rom.vhd" type="file.vhdl" enable="1"/>
+        <File path="rtl_dar/berzerk.vhd" type="file.vhdl" enable="1"/>
+        <File path="rtl_dar/berzerk_sound_fx.vhd" type="file.vhdl" enable="1"/>
+        <File path="rtl_dar/berzerk_speech.vhd" type="file.vhdl" enable="1"/>
+        <File path="rtl_dar/berzerk_tn9.vhd" type="file.vhdl" enable="1"/>
+        <File path="rtl_dar/gen_ram.vhd" type="file.vhdl" enable="1"/>
+        <File path="rtl_dar/io_ps2_keyboard.vhd" type="file.vhdl" enable="1"/>
+        <File path="rtl_dar/kbd_joystick.vhd" type="file.vhdl" enable="1"/>
+        <File path="rtl_dar/line_doubler.vhd" type="file.vhdl" enable="1"/>
+        <File path="rtl_dar/video_gen.vhd" type="file.vhdl" enable="1"/>
+        <File path="rtl_t80_304/T80.vhd" type="file.vhdl" enable="1"/>
+        <File path="rtl_t80_304/T80_ALU.vhd" type="file.vhdl" enable="1"/>
+        <File path="rtl_t80_304/T80_MCode.vhd" type="file.vhdl" enable="1"/>
+        <File path="rtl_t80_304/T80_Pack.vhd" type="file.vhdl" enable="1"/>
+        <File path="rtl_t80_304/T80_Reg.vhd" type="file.vhdl" enable="1"/>
+        <File path="rtl_t80_304/T80se.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/gowin_rpll/gowin_rpll.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/berzerk_tn9.cst" type="file.cst" enable="1"/>
+    </FileList>
+</Project>
