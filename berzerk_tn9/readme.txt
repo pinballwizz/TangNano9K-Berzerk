@@ -1,4 +1,4 @@
-Berzerk Arcade for the Tang Nano 9K Dev FPGA Board.
+Berzerk Arcade for the Tang Nano 9K Dev FPGA Board. Pinballwiz.org 2025
 
 Notes:
 Controls are PS2 keyboard, see readme file in tools folder for instructions.
